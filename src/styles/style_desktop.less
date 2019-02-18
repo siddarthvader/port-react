@@ -1,18 +1,21 @@
 // absolute css rules
 @import "desktop_var";
 @import "structure";
+@import "animate.min.css";
+@import "reset.css";
+@import '~css-media-all';
+
 @font-face {
     font-family: monaco;
-    src: url('../static/fonts/montserrat/Montserrat-Hairline.otf') format('opentype');
+    src: url('./fonts/Montserrat-Hairline.otf') format('opentype');
 }
 
 @font-face {
     font-family: monaco;
-    src: url('../static/fonts/montserrat/Montserrat-Light.otf') format('opentype');
+    src: url('./fonts/Montserrat-Light.otf') format('opentype');
     font-weight: bold;
 }
 
-@import url('css-media-all.css');
 [ng-click] {
     cursor: pointer;
 }
@@ -337,6 +340,7 @@ html {
     width: 100%;
     height: 100%;
     font-family: monaco;
+
 }
 
 body {
