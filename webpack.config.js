@@ -26,6 +26,7 @@
             {
               loader: 'css-loader',
               options: {
+                
                 importLoaders: 1,
               }
             },
@@ -44,7 +45,6 @@
         }),
         include: path.join(__dirname, "src/styles/"),
       },
-
        {
          test: /\.(woff(2)?|ttf|eot|svg|otf)(\?v=\d+\.\d+\.\d+)?$/,
          use: [{

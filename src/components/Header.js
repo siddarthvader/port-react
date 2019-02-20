@@ -15,10 +15,10 @@ export default function Header(){
           <Link className="tabs ng-scope" to='/blog'>blog</Link>
           <Link className="tabs ng-scope" to='/contact'>contact</Link>
           <Link className="tabs ng-scope" to='/readme'>README</Link>
-          &gt;</div>
+          </div>
         <div className="parent-loader">
-          <div className="tab-indicator  l0" />
-          <div className="loader" />
+          <div className="tab-indicator  l0" ></div>
+          <div className="loader" ></div>
         </div>
       </div>
       </header>
